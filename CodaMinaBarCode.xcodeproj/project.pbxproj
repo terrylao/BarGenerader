@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB722CE32AA2BB630093F821 /* CodaMinaBarCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722CE22AA2BB630093F821 /* CodaMinaBarCodeApp.swift */; };
+		EB722CE52AA2BB630093F821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722CE42AA2BB630093F821 /* ContentView.swift */; };
+		EB722CE72AA2BB640093F821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB722CE62AA2BB640093F821 /* Assets.xcassets */; };
+		EB722CEA2AA2BB640093F821 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB722CE92AA2BB640093F821 /* Preview Assets.xcassets */; };
+		EB722CF42AA2BB640093F821 /* CodaMinaBarCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722CF32AA2BB640093F821 /* CodaMinaBarCodeTests.swift */; };
+		EB722CFE2AA2BB640093F821 /* CodaMinaBarCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722CFD2AA2BB640093F821 /* CodaMinaBarCodeUITests.swift */; };
+		EB722D002AA2BB640093F821 /* CodaMinaBarCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722CFF2AA2BB640093F821 /* CodaMinaBarCodeUITestsLaunchTests.swift */; };
+		EB722D0D2AA2BCAF0093F821 /* CodaMinaBarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB722D0C2AA2BCAF0093F821 /* CodaMinaBarCodeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB722CF02AA2BB640093F821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB722CD72AA2BB630093F821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB722CDE2AA2BB630093F821;
+			remoteInfo = CodaMinaBarCode;
+		};
+		EB722CFA2AA2BB640093F821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB722CD72AA2BB630093F821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB722CDE2AA2BB630093F821;
+			remoteInfo = CodaMinaBarCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB722CDF2AA2BB630093F821 /* CodaMinaBarCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodaMinaBarCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB722CE22AA2BB630093F821 /* CodaMinaBarCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodaMinaBarCodeApp.swift; sourceTree = "<group>"; };
+		EB722CE42AA2BB630093F821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB722CE62AA2BB640093F821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB722CE92AA2BB640093F821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB722CEF2AA2BB640093F821 /* CodaMinaBarCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodaMinaBarCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB722CF32AA2BB640093F821 /* CodaMinaBarCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodaMinaBarCodeTests.swift; sourceTree = "<group>"; };
+		EB722CF92AA2BB640093F821 /* CodaMinaBarCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodaMinaBarCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB722CFD2AA2BB640093F821 /* CodaMinaBarCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodaMinaBarCodeUITests.swift; sourceTree = "<group>"; };
+		EB722CFF2AA2BB640093F821 /* CodaMinaBarCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodaMinaBarCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB722D0C2AA2BCAF0093F821 /* CodaMinaBarCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodaMinaBarCodeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB722CDC2AA2BB630093F821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722CEC2AA2BB640093F821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722CF62AA2BB640093F821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB722CD62AA2BB630093F821 = {
+			isa = PBXGroup;
+			children = (
+				EB722CE12AA2BB630093F821 /* CodaMinaBarCode */,
+				EB722CF22AA2BB640093F821 /* CodaMinaBarCodeTests */,
+				EB722CFC2AA2BB640093F821 /* CodaMinaBarCodeUITests */,
+				EB722CE02AA2BB630093F821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB722CE02AA2BB630093F821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB722CDF2AA2BB630093F821 /* CodaMinaBarCode.app */,
+				EB722CEF2AA2BB640093F821 /* CodaMinaBarCodeTests.xctest */,
+				EB722CF92AA2BB640093F821 /* CodaMinaBarCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB722CE12AA2BB630093F821 /* CodaMinaBarCode */ = {
+			isa = PBXGroup;
+			children = (
+				EB722CE22AA2BB630093F821 /* CodaMinaBarCodeApp.swift */,
+				EB722CE42AA2BB630093F821 /* ContentView.swift */,
+				EB722CE62AA2BB640093F821 /* Assets.xcassets */,
+				EB722CE82AA2BB640093F821 /* Preview Content */,
+				EB722D0C2AA2BCAF0093F821 /* CodaMinaBarCodeView.swift */,
+			);
+			path = CodaMinaBarCode;
+			sourceTree = "<group>";
+		};
+		EB722CE82AA2BB640093F821 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB722CE92AA2BB640093F821 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB722CF22AA2BB640093F821 /* CodaMinaBarCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB722CF32AA2BB640093F821 /* CodaMinaBarCodeTests.swift */,
+			);
+			path = CodaMinaBarCodeTests;
+			sourceTree = "<group>";
+		};
+		EB722CFC2AA2BB640093F821 /* CodaMinaBarCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB722CFD2AA2BB640093F821 /* CodaMinaBarCodeUITests.swift */,
+				EB722CFF2AA2BB640093F821 /* CodaMinaBarCodeUITestsLaunchTests.swift */,
+			);
+			path = CodaMinaBarCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB722CDE2AA2BB630093F821 /* CodaMinaBarCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB722D032AA2BB640093F821 /* Build configuration list for PBXNativeTarget "CodaMinaBarCode" */;
+			buildPhases = (
+				EB722CDB2AA2BB630093F821 /* Sources */,
+				EB722CDC2AA2BB630093F821 /* Frameworks */,
+				EB722CDD2AA2BB630093F821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodaMinaBarCode;
+			productName = CodaMinaBarCode;
+			productReference = EB722CDF2AA2BB630093F821 /* CodaMinaBarCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB722CEE2AA2BB640093F821 /* CodaMinaBarCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB722D062AA2BB640093F821 /* Build configuration list for PBXNativeTarget "CodaMinaBarCodeTests" */;
+			buildPhases = (
+				EB722CEB2AA2BB640093F821 /* Sources */,
+				EB722CEC2AA2BB640093F821 /* Frameworks */,
+				EB722CED2AA2BB640093F821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB722CF12AA2BB640093F821 /* PBXTargetDependency */,
+			);
+			name = CodaMinaBarCodeTests;
+			productName = CodaMinaBarCodeTests;
+			productReference = EB722CEF2AA2BB640093F821 /* CodaMinaBarCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB722CF82AA2BB640093F821 /* CodaMinaBarCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB722D092AA2BB640093F821 /* Build configuration list for PBXNativeTarget "CodaMinaBarCodeUITests" */;
+			buildPhases = (
+				EB722CF52AA2BB640093F821 /* Sources */,
+				EB722CF62AA2BB640093F821 /* Frameworks */,
+				EB722CF72AA2BB640093F821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB722CFB2AA2BB640093F821 /* PBXTargetDependency */,
+			);
+			name = CodaMinaBarCodeUITests;
+			productName = CodaMinaBarCodeUITests;
+			productReference = EB722CF92AA2BB640093F821 /* CodaMinaBarCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB722CD72AA2BB630093F821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EB722CDE2AA2BB630093F821 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EB722CEE2AA2BB640093F821 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EB722CDE2AA2BB630093F821;
+					};
+					EB722CF82AA2BB640093F821 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EB722CDE2AA2BB630093F821;
+					};
+				};
+			};
+			buildConfigurationList = EB722CDA2AA2BB630093F821 /* Build configuration list for PBXProject "CodaMinaBarCode" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB722CD62AA2BB630093F821;
+			productRefGroup = EB722CE02AA2BB630093F821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB722CDE2AA2BB630093F821 /* CodaMinaBarCode */,
+				EB722CEE2AA2BB640093F821 /* CodaMinaBarCodeTests */,
+				EB722CF82AA2BB640093F821 /* CodaMinaBarCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB722CDD2AA2BB630093F821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB722CEA2AA2BB640093F821 /* Preview Assets.xcassets in Resources */,
+				EB722CE72AA2BB640093F821 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722CED2AA2BB640093F821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722CF72AA2BB640093F821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB722CDB2AA2BB630093F821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB722CE52AA2BB630093F821 /* ContentView.swift in Sources */,
+				EB722D0D2AA2BCAF0093F821 /* CodaMinaBarCodeView.swift in Sources */,
+				EB722CE32AA2BB630093F821 /* CodaMinaBarCodeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722CEB2AA2BB640093F821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB722CF42AA2BB640093F821 /* CodaMinaBarCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB722CF52AA2BB640093F821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB722CFE2AA2BB640093F821 /* CodaMinaBarCodeUITests.swift in Sources */,
+				EB722D002AA2BB640093F821 /* CodaMinaBarCodeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB722CF12AA2BB640093F821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB722CDE2AA2BB630093F821 /* CodaMinaBarCode */;
+			targetProxy = EB722CF02AA2BB640093F821 /* PBXContainerItemProxy */;
+		};
+		EB722CFB2AA2BB640093F821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB722CDE2AA2BB630093F821 /* CodaMinaBarCode */;
+			targetProxy = EB722CFA2AA2BB640093F821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB722D012AA2BB640093F821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB722D022AA2BB640093F821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB722D042AA2BB640093F821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodaMinaBarCode/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaBarCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB722D052AA2BB640093F821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodaMinaBarCode/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaBarCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB722D072AA2BB640093F821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaBarCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodaMinaBarCode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodaMinaBarCode";
+			};
+			name = Debug;
+		};
+		EB722D082AA2BB640093F821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaBarCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodaMinaBarCode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodaMinaBarCode";
+			};
+			name = Release;
+		};
+		EB722D0A2AA2BB640093F821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaBarCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodaMinaBarCode;
+			};
+			name = Debug;
+		};
+		EB722D0B2AA2BB640093F821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CodaMina.CodaMinaBarCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodaMinaBarCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB722CDA2AA2BB630093F821 /* Build configuration list for PBXProject "CodaMinaBarCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB722D012AA2BB640093F821 /* Debug */,
+				EB722D022AA2BB640093F821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB722D032AA2BB640093F821 /* Build configuration list for PBXNativeTarget "CodaMinaBarCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB722D042AA2BB640093F821 /* Debug */,
+				EB722D052AA2BB640093F821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB722D062AA2BB640093F821 /* Build configuration list for PBXNativeTarget "CodaMinaBarCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB722D072AA2BB640093F821 /* Debug */,
+				EB722D082AA2BB640093F821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB722D092AA2BB640093F821 /* Build configuration list for PBXNativeTarget "CodaMinaBarCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB722D0A2AA2BB640093F821 /* Debug */,
+				EB722D0B2AA2BB640093F821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB722CD72AA2BB630093F821 /* Project object */;
+}

@@ -1,4 +1,4 @@
 # BarGenerader
-在SWIFTUI 中要產生BARCODE 有點不順手。
-就做這個來套，省點時間。
-BSD License.
+在SWIFTUI 中要產生BARCODE 有點不順手。<br/>
+就做這個來套，省點時間。<br/>
+BSD License.<br/>
